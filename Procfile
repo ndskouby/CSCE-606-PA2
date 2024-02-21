@@ -1,3 +1,2 @@
-release: rails db:migrate
-release: rails db:seed
+release: ./release_tasks.sh
 web: bundle exec rails server -p $PORT
