@@ -1,3 +1,3 @@
-worker: rails db:migrate
-worker: rails db:seed
+release: rails db:migrate
+release: rails db:seed
 web: bundle exec rails server -p $PORT
